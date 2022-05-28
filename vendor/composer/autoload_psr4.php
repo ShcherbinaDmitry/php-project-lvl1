@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Php\\Package\\Tests\\' => array($baseDir . '/tests'),
-    'Php\\Package\\' => array($baseDir . '/src'),
+    'Brain\\Cli\\Tests\\' => array($baseDir . '/tests'),
+    'Brain-games\\Cli\\' => array($baseDir . '/src'),
 );

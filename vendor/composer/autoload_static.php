@@ -6,22 +6,37 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c
 {
+    public static $files = array (
+        'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
+        'd9a38feedfbe53f66854d4c906ba0ab2' => __DIR__ . '/../..' . '/src/Cli.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'B' => 
         array (
-            'Php\\Package\\Tests\\' => 18,
-            'Php\\Package\\' => 12,
+            'Brain\\Cli\\Tests\\' => 16,
+            'Brain-games\\Cli\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Php\\Package\\Tests\\' => 
+        'Brain\\Cli\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Php\\Package\\' => 
+        'Brain-games\\Cli\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cli' => 
+            array (
+                0 => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib',
+            ),
         ),
     );
 
@@ -34,6 +49,7 @@ class ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c::$classMap;
 
         }, null, ClassLoader::class);
