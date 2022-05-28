@@ -1,0 +1,21 @@
+{
+  "name": "hexlet/brain-games",
+  "bin": ["bin/brain-games"],
+  "type": "library",
+  "description": "Hexlet php-package",
+  "authors": [
+    {
+      "name": "Dmitry Shcherbina",
+      "email": "shcherbinadmitry@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "Php\\Package\\": "src",
+      "Php\\Package\\Tests\\": "tests"
+    }
+  }
+}
