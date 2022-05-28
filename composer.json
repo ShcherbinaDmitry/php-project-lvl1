@@ -1,6 +1,13 @@
 {
   "name": "hexlet/brain-games",
-  "bin": ["bin/brain-games"],
+  "bin": [
+    "bin/brain-games",
+    "bin/brain-even",
+    "bin/brain-calc",
+    "bin/brain-gcd",
+    "bin/brain-progression",
+    "bin/brain-prime"
+  ],
   "type": "library",
   "description": "Hexlet php-package",
   "authors": [
@@ -18,7 +25,13 @@
       "Brain\\Cli\\Tests\\": "tests"
     },
     "files": [
-        "src/Cli.php"
+        "src/Cli.php",
+        "src/Engine.php",
+        "src/Games/Even.php",
+        "src/Games/Calc.php",
+        "src/Games/Gcd.php",
+        "src/Games/Progression.php",
+        "src/Games/Prime.php"
     ]
   },
   "require": {

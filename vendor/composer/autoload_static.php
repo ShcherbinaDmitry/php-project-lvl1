@@ -9,6 +9,12 @@ class ComposerStaticInit1753487ee9c37c22a7ad3895b21b9c2c
     public static $files = array (
         'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
         'd9a38feedfbe53f66854d4c906ba0ab2' => __DIR__ . '/../..' . '/src/Cli.php',
+        '94cedd2e3510f5e92ef6ea79d11aff23' => __DIR__ . '/../..' . '/src/Engine.php',
+        '9f56527ea1222ecf1cefefaa0446de75' => __DIR__ . '/../..' . '/src/Games/Even.php',
+        '7643e42ee7af0510dfc9ca1a730524d0' => __DIR__ . '/../..' . '/src/Games/Calc.php',
+        'd91ea3b3358297efeb170f3bfa7e81e7' => __DIR__ . '/../..' . '/src/Games/Gcd.php',
+        '001e8b0fb692d5c1a5001e497bbf5167' => __DIR__ . '/../..' . '/src/Games/Progression.php',
+        '8f5efa2725124eaebfe18cc070af7552' => __DIR__ . '/../..' . '/src/Games/Prime.php',
     );
 
     public static $prefixLengthsPsr4 = array (
